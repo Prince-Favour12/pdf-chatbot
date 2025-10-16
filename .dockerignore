@@ -1,0 +1,60 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.pdb
+*.egg-info
+*.egg
+*.log
+
+# Virtual environments
+env/
+venv/
+.venv/
+ENV/
+*.env
+
+# Cache and build files
+.cache/
+build/
+dist/
+.eggs/
+*.manifest
+*.spec
+
+# Jupyter notebooks checkpoints
+.ipynb_checkpoints/
+
+# VS Code / IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Git
+.git/
+.gitignore
+
+# Streamlit cache
+.streamlit/
+
+# Datasets and large files
+data/
+datasets/
+uploads/
+tmp/
+*.pdf
+*.json
+*.csv
+
+# Vector stores (optional – only ignore if not persisting via volume)
+chroma_db/
+
+# Tests
+tests/
+notebooks/
