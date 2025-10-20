@@ -1,7 +1,7 @@
 streamlit
 numpy
 pypdf
-langchain
+langchain==0.2.15
 langchain-openai
 langchain-text-splitters
 langchain-community
