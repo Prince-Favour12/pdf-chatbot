@@ -1,5 +1,5 @@
 from langchain_text_splitters import RecursiveCharacterTextSplitter
-from langchain.schema import Document
+from langchain_core.documents import Document
 import streamlit as st
 
 def clean_text(text: str) -> str:
